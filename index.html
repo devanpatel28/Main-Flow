@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BloggerWorld - Explore, Write, and Share!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">BloggerWorld</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar-container">
+                <button class="search-btn" onclick="toggleSearch()">Search</button>
+                <input type="text" id="search-bar" class="search-bar" placeholder="Search blogs...">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to BloggerWorld</h2>
+            <p>Join a global community of bloggers sharing their knowledge, stories, and experiences.</p>
+            <a href="#" class="btn">Post Your Blog</a>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h3>Explore Categories</h3>
+            <div class="category-list">
+                <div class="category-item travel">Travel</div>
+                <div class="category-item tech">Technology</div>
+                <div class="category-item education">Education</div>
+                <div class="category-item cooking">Cooking</div>
+                <div class="category-item lifestyle">Lifestyle</div>
+            </div>
+        </div>
+    </section>
+    <section class="blogs">
+        <div class="container">
+            <h3>Latest Blogs</h3>
+            <div class="blog-list">
+                <div class="blog-card">
+                    <img src="img/blog1.png" alt="Travel Blog">
+                    <div class="blog-content">
+                        <h4>Exploring the Mountains</h4>
+                        <p>Category: Travel | Date: October 8, 2024</p>
+                        <p>By: Devan Bhensdadiya</p>
+                        <p>Discover the serene beauty of the mountains, a perfect getaway for adventure lovers...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="img/blog2.png" alt="Tech Blog">
+                    <div class="blog-content">
+                        <h4>The Future of AI</h4>
+                        <p>Category: Technology | Date: October 5, 2024</p>
+                        <p>By: Devan Bhensdadiya</p>
+                        <p>How artificial intelligence is shaping the future of technology and transforming industries...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="img/blog3.png" alt="Education Blog">
+                    <div class="blog-content">
+                        <h4>Online Learning Evolution</h4>
+                        <p>Category: Education | Date: October 3, 2024</p>
+                        <p>By: Devan Bhensdadiya</p>
+                        <p>An in-depth look into how online education is transforming the way students learn globally...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h3>Why Blog with BloggerWorld?</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>Vibrant Community</h4>
+                    <p>Engage with bloggers and readers from around the world.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Freedom to Share</h4>
+                    <p>Post blogs on any topic you're passionate about, from travel to technology.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Easy-to-Use Platform</h4>
+                    <p>Designed to make blogging easy and enjoyable for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
